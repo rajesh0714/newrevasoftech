@@ -132,3 +132,17 @@ a {
   margin: 4px;
   outline: 1px; 
 }
+.input {
+	text-align: right;
+	color: green;
+	list-style: none;
+}
+.color {
+	background: blue;
+	border-color: blue;
+	color: white;
+	align-self: center;
+}
+.height {
+	height: 300px;
+}
