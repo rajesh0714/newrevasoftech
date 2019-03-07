@@ -30,6 +30,27 @@ body {
     -8px -8px 0 firebrick,
     -30px 20px 40px dimgrey
 }
+.name2 {
+  margin-top: 1em;
+  /*margin-left: 280px;*/
+  text-align: justify;
+  font-family: 'Oswald', Helvetica, sans-serif;
+  font-size: 20px;
+  /*transform: skewY(-10deg);*/
+  letter-spacing: 2px;
+  word-spacing: -8px;
+  color: tomato;
+  /*text-shadow: 
+    -1px -1px 0 firebrick,
+    -2px -2px 0 firebrick,
+    -3px -3px 0 firebrick,
+    -4px -4px 0 firebrick,
+    -5px -5px 0 firebrick,
+    -6px -6px 0 firebrick,
+    -7px -7px 0 firebrick,
+    -8px -8px 0 firebrick,
+    -30px 20px 40px dimgrey*/
+}
 .zone {
   width: 8em;
   cursor: pointer;
@@ -53,8 +74,13 @@ body {
 /*Grid*/
 .grid-wrapper {
   display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr))
+}
+.grid-wrapper1 {
+  display: grid;
   /*grid-gap: 0px;*/
-  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr))
+  grid-template-columns: repeat(auto-fill, minmax(122px, 1fr))
 }
 img {
   margin: 0;
@@ -62,4 +88,26 @@ img {
 .cover {
   margin: 0;
   grid-template-columns: repeat(auto-fill, minmax(120px, 1fr))
+}
+.contact {
+  cursor: pointer;
+  list-style: none;
+  width: 30em;
+  height: 5em;
+  margin-left: 5;
+}
+li {
+  padding: 20px;
+}
+a {
+  color: white;
+  text-decoration: none; 
+}
+.zone {
+  cursor: pointer;
+  color: #fff;
+  font-size: 2em;
+  border-radius: 4px;
+  border:1px solid #bbb;
+  /*transition: all 0.3s linear;*/
 }
