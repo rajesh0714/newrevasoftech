@@ -1,0 +1,64 @@
+body {
+  margin: auto 0;
+  /*background: radial-gradient(600px at 50% 50% , #fff 20%, #000 100%);*/
+}
+.logo {
+  display: flex;
+  margin-left: 0;
+  padding: 0;
+  margin: 0;
+  outline: 1;
+}
+.name {
+  margin-top: 0.8em;
+  margin-left: 480px;
+  text-align: justify;
+  font-family: 'Oswald', Helvetica, sans-serif;
+  font-size: 2em;
+  transform: skewY(-10deg);
+  letter-spacing: 2px;
+  word-spacing: -8px;
+  color: tomato;
+  text-shadow: 
+    -1px -1px 0 firebrick,
+    -2px -2px 0 firebrick,
+    -3px -3px 0 firebrick,
+    -4px -4px 0 firebrick,
+    -5px -5px 0 firebrick,
+    -6px -6px 0 firebrick,
+    -7px -7px 0 firebrick,
+    -8px -8px 0 firebrick,
+    -30px 20px 40px dimgrey
+}
+.zone {
+  width: 8em;
+  cursor: pointer;
+  color: #fff;
+  font-size: 1em;
+  border-radius: 2px;
+  border:3px solid #bbb;
+  padding: 5px;
+  margin: 0;
+  outline: 1px; 
+}
+.nav-item {
+  background-color: blue;
+  width: 8em;
+  height: 5em;
+  margin-left: 5;
+}
+.nav-link {
+  color: white;
+}
+/*Grid*/
+.grid-wrapper {
+  display: grid;
+  /*grid-gap: 0px;*/
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr))
+}
+img {
+  margin: 0;
+}
+.cover {
+  margin-left: 0;
+}
