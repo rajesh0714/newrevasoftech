@@ -171,21 +171,21 @@ h6 {
 --------------------------------------------------------------*/
 
 #intro {
-  width: 100px;
-  height: 100px;
+  width: 200px;
+  height: 200px;
   position: relative;
-  /*background: url("../img/intro-bg.png") center bottom no-repeat;*/
+ *background: url("../img/intro-bg.png") center bottom no-repeat;*/
   background-size: cover;
   padding: 200px 0 120px 0;
 }
 
 #intro .intro-img {
-  width: 50%;
+  width: 100%;
   float: right;
 }
 
 #intro .intro-info {
-  width: 50%;
+  width: 100%;
   float: left;
 }
 
