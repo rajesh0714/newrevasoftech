@@ -171,10 +171,10 @@ h6 {
 --------------------------------------------------------------*/
 
 #intro {
-  width: 200px;
-  height: 200px;
+  width: 100%x;
+  /*height: 200px;*/
   position: relative;
- *background: url("../img/intro-bg.png") center bottom no-repeat;*/
+  background: url("../img/intro-bg.png") center bottom no-repeat;
   background-size: cover;
   padding: 200px 0 120px 0;
 }
